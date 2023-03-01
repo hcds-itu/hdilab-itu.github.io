@@ -1,6 +1,9 @@
 main:
-  - name: "Services"
-    url: "/services/"
+  # - name: "Services"
+  #   url: "/services/"
+  #   weight: 2
+  - name: "Data Jams"
+    url: "/data-jams/"
     weight: 2
   - name: "People"
     url: "/people/"

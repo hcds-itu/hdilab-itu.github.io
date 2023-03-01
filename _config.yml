@@ -18,6 +18,9 @@ collections:
   services:
     output: true
     sort_by: weight
+  data-jams:
+    output: true
+    sort_by: weight
   people:
     output: true
 
@@ -27,6 +30,11 @@ defaults:
       type: "services"
     values:
       layout: "service"
+  - scope:
+      path: ""
+      type: "data-jams"
+    values:
+      layout: "data-jam"
   - scope:
       path: ""
       type: "people"
