@@ -1,9 +1,11 @@
 ---
-title: "Susan Shelton"
-date: 2018-12-20T13:45:06+10:00
-image: "images/team/cristian-newman-94319-unsplash.jpg"
-jobtitle: "Developer"
-weight: 5
+title: "Sage Kirk"
+date: 2018-11-19T10:47:58+10:00
+image: "images/people/sage-kirk-485982-unsplash.jpg"
+jobtitle: "Accounting Partner"
+linkedinurl: "https://www.linkedin.com/example2"
+promoted: true
+weight: 2
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum arcu vitae elementum curabitur vitae nunc sed. Tortor at risus viverra adipiscing at in.

@@ -2,13 +2,19 @@
 ---
 
 // Colors
-$primary: #e5261f;
-$primary-dark: #a01b16;
+;
+$primary: #3b55a4;
+// $primary-dark: #a01b16;
+$primary-dark: #fff;
 $secondary: #f88379;
 $black: #2f2f41;
+// $white: #555588;
 $white: #ffffff;
-$white-offset: #fff6f8;
-$steel: #5c5a5a;
+// $white: #3B55A4;
+$white-offset: #fff;
+$steel: #aaa;
+$header-color: #ffffff;
+$header-background-color: #2f2f41;
 
 // Links
 $link-color: $primary;
@@ -58,7 +64,7 @@ $sub-footer-text-color: $white;
 
 // Pages
 @import "pages/page-home";
-@import "pages/page-teams";
+@import "pages/page-peoples";
 @import "pages/page-service";
 
 body {

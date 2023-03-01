@@ -1,14 +1,15 @@
 baseurl: '/'
 permalink: pretty
-title: 'Jekyll Serif'
+title: 'hdilab'
 
 logo:
   mobile: "images/logo/logo-mobile.svg"
   mobile_height: "32px"
   mobile_width: "32px"
-  desktop: "images/logo/logo.svg"
-  desktop_height: "32px"
-  desktop_width: "120px"
+  # desktop: "images/logo/logo.svg"
+  desktop: "images/logo/hdiLAB-logo-v4.svg"
+  desktop_height: "64px"
+  desktop_width: "240px"
 
 home: 
   limit_services: 6
@@ -17,7 +18,7 @@ collections:
   services:
     output: true
     sort_by: weight
-  team:
+  people:
     output: true
 
 defaults:
@@ -28,9 +29,9 @@ defaults:
       layout: "service"
   - scope:
       path: ""
-      type: "team"
+      type: "people"
     values:
-      layout: "team"
+      layout: "people"
 
 sass:
   style: compressed # possible values: nested expanded compact compressed
