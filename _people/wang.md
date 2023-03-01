@@ -7,7 +7,7 @@ group: Student
 started: 2023-02-01
 name: Thai Wang
 status: Current
-Roles: Lab Assistant
+position: Lab Assistant
 email: twan@itu.dk
 featured: true
 weight: 2
