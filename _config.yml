@@ -1,4 +1,5 @@
-baseurl: '/'
+url: 'https://hdilab.itu.dk'
+# baseurl: '/'
 permalink: pretty
 title: 'hdilab'
 
@@ -7,7 +8,6 @@ logo:
   mobile: "images/logo/logo-mobile.svg"
   mobile_height: "32px"
   mobile_width: "32px"
-  # desktop: "images/logo/logo.svg"
   desktop: "images/logo/hdiLAB-logo-v4.svg"
   desktop_height: "64px"
   desktop_width: "240px"
