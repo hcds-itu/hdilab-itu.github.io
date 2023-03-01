@@ -2,7 +2,7 @@
 layout: page
 title: Thai Wang
 description: Thai is currently writing his Master's thesis on the topic of stable diffusion. His main role in the lab is in the organization of the weekly data jams in collaboration with Søren Knudsen.
-# img: assets/img/profile-photos/soren-square.jpg
+img: assets/img/profile-photos/thai.jpg
 group: Student
 started: 2023-02-01
 name: Thai Wang
