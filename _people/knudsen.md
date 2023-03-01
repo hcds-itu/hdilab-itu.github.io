@@ -19,6 +19,7 @@ Søren Knudsen directs the hdi lab in addition to teaching and conducting resear
 He is interested in supporting people in understanding, making sense of, and discussing data in face-to-face and online contexts, for example supported by large or multiple displays and social media.
 
 
+
 References
 ----------
 <div class="publications">
