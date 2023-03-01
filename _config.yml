@@ -46,7 +46,8 @@ sass:
 
 plugins:
   - jekyll-environment-variables
-
+  - jekyll/scholar
+  
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -58,3 +59,39 @@ exclude:
   - LICENSE.md
   - LICENSE
   - README.md
+
+# -----------------------------------------------------------------------------
+# Jekyll Scholar
+# -----------------------------------------------------------------------------
+
+scholar:
+  style: apa
+
+  last_name: John
+  first_name: [Doe, D.]
+
+  locale: en
+
+  sort_by: year,last_name
+  order: descending,ascending
+
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bibtex
+  # Note: if you have latex math in your bibtex, the latex filter
+  # preprocessing may conflict with MathJAX if the latter is enabled.
+  # See https://github.com/alshedivat/al-folio/issues/357.
+  bibtex_filters: [latex, smallcaps, superscript]
+  bibtex_options:
+      parse_names: true
+
+  repository: /assets/publications/
+
+  replace_strings: true
+  join_strings: true
+
+  details_dir: bibliography
+  details_layout: bibtex-details.html
+  details_link: ""
+
+  query: "@*"

@@ -20,20 +20,20 @@ bodyClass: "page-peoples"
 
 <div class="container pt-6 pb-6">
     <div class="row">
-        {% assign promoted_peoples = site.people | where: "promoted", true | sort: "weight" %}
-        {% for people in promoted_peoples %}
+        {% assign featured_peoples = site.people | where: "featured", true | sort: "weight" %}
+        {% for people in featured_peoples %}
         <div class="col-12 col-md-6 mb-2">
             <div class="people people-summary people-summary-large">
-                {% if people.image %}
+                {% if people.img %}
                 <div class="people-image">
-                    <img width="90" height="90" alt="{{ people.title }}" class="img-fluid mb-2" src="{{ people.image | relative_url }}" />
+                    <img width="90" height="90" alt="{{ people.title }}" class="img-fluid mb-2" src="{{ people.img | relative_url }}" />
                 </div>
                 {% endif %}
                 <div class="people-meta">
                     <h2 class="people-name"><a href="{{ people.url | relative_url }}">{{ people.title }}</a></h2>
-                    <p class="people-description">{{ people.jobtitle }}</p>
-                    {% if people.linkedinurl %}
-                    <a target="_blank" href="{{ people.linkedinurl }}" rel="noreferrer">LinkedIn</a>
+                    <p class="people-description">{{ people.position }}</p>
+                    {% if people.academic-url %}
+                    <a target="_blank" href="{{ people.academic-url }}" rel="noreferrer">Academic website</a>
                     {% endif %}
                 </div>
                 <div class="people-content">{{ people.content | truncate: 120 }}</div>
@@ -42,18 +42,18 @@ bodyClass: "page-peoples"
         {% endfor %}
     </div>
     <div class="row pt-6 pb-6">
-        {% assign peoples = site.people | where: "promoted", empty | sort: "weight" %}
+        {% assign peoples = site.people | where: "featured", empty | sort: "weight" %}
         {% for people in peoples %}
         <div class="col-12 col-md-4 mb-3">
             <div class="people people-summary">
-                {% if people.image %}
+                {% if people.img %}
                 <div class="people-image">
-                    <img width="60" height="60" alt="{{ people.title }}" class="img-fluid mb-2" src="{{ people.image | relative_url }}" />
+                    <img width="60" height="60" alt="{{ people.title }}" class="img-fluid mb-2" src="{{ people.img | relative_url }}" />
                 </div>
                 {% endif %}
                 <div class="people-meta">
                     <h2 class="people-name"><a href="{{ people.url | relative_url }}">{{ people.title }}</a></h2>
-                    <p class="people-description">{{ people.jobtitle }}</p>
+                    <p class="people-description">{{ people.position }}</p>
                 </div>
             </div>
         </div>
