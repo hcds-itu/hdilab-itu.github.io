@@ -9,7 +9,13 @@ intro_image_hide_on_mobile: true
 ---
 
 # Human Data Interaction Lab
+The Human Data Interaction Lab focuses on the human factors in the conception, use, and understanding of data. The lab functions as a venue for discussing matters related to human data interaction broadly and invites students and faculty to join forces to better understand these aspects.
 
-The Human Data Interaction Lab (hdilab) focuses on the human factors in the conception, use, and understanding of data. Positioned in the intersection of data science, social science, HCI, and CSCW we are interested in understanding and exploring human practices enabled by technology. We combine both quantitative and qualitative methods, and work with computational methods such as statistics, machine learning, network analysis together with qualitative methods such as ethnography, interviews, and observations.
+## What is Human Data Interaction?
+Human data interaction refers to the way that people interact with data in order to make sense of it, derive insights from it, and ultimately make decisions based on it. It involves the use of various tools, technologies, and techniques to facilitate this interaction, such as data visualization tools, data analysis software, machine learning algorithms, and novel interfaces and techniques for interacting with these tools.
 
-The lab functions as a venue for discussion often overlooked human-centered dimensions of data science such as individual differences, domain-expertise, design implications, and societal impact. Within HCDS, we work across several topics, including digital media platforms, information visualization, crowd sourcing, affective computing, behavioral modeling, and societal challenges related to digital infrastructure more broadly.
+## People and affiliated research groups
+About twenty people are affiliated with the lab (see also [People](/people). There is a sizeable overlap with members of the research group [Human-Centered Data Science](https://hcds.itu.dk). Reach out if you're interested in becoming a part of the lab!
+
+## Events
+This semester, we are launching our weekly data jams. See more at [Data Jams](/data-jams).
