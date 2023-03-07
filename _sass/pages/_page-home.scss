@@ -1,2 +1,18 @@
 .page-home {
+    h2 {
+        margin-bottom: 10px;
+    }
+    div.sidebar {
+        background-color: #f0f0f4;
+        padding: 40px;
+        p {
+            color: hsl(225, 7%, 65%);
+            font-size: medium;
+            width: auto;
+            margin: 0px;
+        }
+        h2 {
+            // font-size: medium;
+        }
+    }
 }

@@ -1,16 +1,23 @@
-.page-peoples {
+.page-datajams {
   .intro {
     padding-bottom: 0px;
     h1 {
       width: 80%;
     }
+    img {
+      padding-top: 60px;
+      // padding-bottom: 100px;
+    }
   }
 
-  .people-summary {
+  .datajam-summary {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    .people-image {
+    background-color: #f0f0f4;
+    padding: 30px;
+
+    .datajam-image {
       height: 60px;
       width: 60px;
       margin-right: 10px;
@@ -20,7 +27,7 @@
         width: 60px;
       }
     }
-    .people-meta {
+    .datajam-meta {
       flex: 1;
       h2 {
         margin: 0;
@@ -35,13 +42,13 @@
         font-weight: 500;
       }
     }
-    .people-content {
+    .datajam-content {
       margin-top: 20px;
       flex: 1 0 100%;
     }
   }
 
-  .people-summary-large {
+  .datajam-summary-large {
     background-color: $white-offset;
     padding: 30px;
     border-radius: 3px;
@@ -49,7 +56,7 @@
       color: $primary;
 
     }
-    .people-image {
+    .datajam-image {
       height: 90px;
       width: 90px;
       margin-right: 20px;

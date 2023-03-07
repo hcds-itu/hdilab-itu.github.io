@@ -1,7 +1,7 @@
 ---
-title: "Experimenting with constructing visualizations in Data Illustrator and Charticulator"
-date: 2023-03-01T16:25:46+01:00
-event-date: 2023-03-08T16:00:00+01:00
+title: "Experimenting with stable diffusion for generative visualization"
+date: 2023-03-07T19:55:46+01:00
+event-date: 2023-03-29T16:00:00+01:00
 event-place: "ITU, 4D Corridor (with overflow to 4A54 or 4A58)"
 weight: 1
 ---

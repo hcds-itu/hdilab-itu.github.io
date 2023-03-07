@@ -1,6 +1,6 @@
 ---
 layout: default
-bodyClass: "page-services"
+bodyClass: "page-datajams"
 ---
 
 <div class="intro">
@@ -10,8 +10,8 @@ bodyClass: "page-services"
         {{ content }}
       </div>
       {% if page.intro_image %}
-      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
-        <img alt={{ page.title }} class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relative_url }}" />
+      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative rows">
+        <img alt={{ page.title }} class="my-auto intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relative_url }}" />
       </div>
       {% endif %}
     </div>
@@ -22,9 +22,9 @@ bodyClass: "page-services"
   <div class="row">
     {% for data-jam in site.data-jams %}
     <div class="col-12 col-md-6 mb-3">
-      <div class="service service-summary">
-        <div class="service-content">
-          <h2 class="service-title">
+      <div class="datajam datajam-summary">
+        <div class="datajam-content">
+          <h2 class="datajam-title">
             <a href="{{ data-jam.url | relative_url }}">{{ data-jam.title }}</a>
           </h2>
           <p>

@@ -25,9 +25,9 @@ With a base in the Digital Design department at ITU, design perspectives are an 
 
 However, effective and usable interfaces are only part of the equation. Playful data interactions can help users discover patterns, insights, and relationships that might not be immediately apparent through more formal data analysis techniques. For example, data visualization tools can be designed to be visually appealing, engaging, and easy to use, which can help users understand and interact with data more effectively. Moreover, playful data interactions might also help make people's data experiences more accessible and enjoyable, thus allowing people overcome concerns, for example, of lack of skills. Design might also consider immersive and interactive data experiences, such as virtual reality environments that allow users to explore and interact with data in new and innovative ways.
 
-## People and affiliated research groups
+<!-- ## People and affiliated research groups
 
-About twenty people are affiliated with the lab (see also [People](/people). There is a sizeable overlap with members of the research group [Human-Centered Data Science](https://hcds.itu.dk). 
+About twenty people are affiliated with the lab (see also [People](/people). There is a sizeable overlap with members of the research group [Human-Centered Data Science](https://hcds.itu.dk).  -->
 
 ## History
 The lab emerged from the ashes of the Data Science & Society (DSS) lab, which existed from 2017 to 2020. The focus of the DSS lab was to bridge the gap from academia society and industry and allow students and researchers to work on real-world data with cutting edge methodologies. Former members of the DSS lab includes Luca Rossi, Natalie Schluter, Obaida Hanteer, Sami Brandt, Jes Frellsen, Oliver Müller, Christina Neumayer, Irina Shklovski, Rasmus Pagh, Aske Kammer, and Paolo Burelli. 
