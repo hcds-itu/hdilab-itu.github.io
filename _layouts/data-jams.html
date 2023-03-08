@@ -28,7 +28,7 @@ bodyClass: "page-datajams"
             <a href="{{ data-jam.url | relative_url }}">{{ data-jam.title }}</a>
           </h2>
           <p>
-            <strong>When:</strong> {{ data-jam.event-date | date: '%B %d, %Y' }}</a>
+            <strong>When:</strong> {{ data-jam.event-date-start | date: '%B %d, %Y, starting at %H:%M' }}</a>
           </p>
           <p>{{ data-jam.content | markdownify | strip_html | truncate: 100 }}</p>
         </div>

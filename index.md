@@ -18,7 +18,7 @@ The Human Data Interaction Lab focuses on the human factors in the conception, u
 Human data interaction refers to the way that people interact with data in order to make sense of it, derive insights from it, and ultimately make decisions based on it. It involves the use of various tools, technologies, and techniques to facilitate this interaction, such as data visualization tools, data analysis software, machine learning algorithms, and novel interfaces and techniques for interacting with these tools. -->
 
 ## People and affiliated research groups
-About twenty [people](/people) are affiliated with the lab, some of which are also members of the [hcds](https://hcds.itu.dk) research group. Reach out if you're interested in becoming a part of the lab!
+About twenty [people](/people) are affiliated with the lab, some of which are also members of the [hcds](https://hcds.itu.dk) research group. [Reach out](mailto:hdilab@o365team.itu.dk) if you're interested in becoming a part of the lab!
 
 ## Events
 This semester, we are launching our weekly data jams. See more at [Data Jams](/data-jams).
