@@ -9,4 +9,9 @@ intro_image: "images/logo/logo-data-jams.svg"
 
 # Launching our Data Jams series
 
-Aliquam erat volutpat. Morbi nisl tortor, dignissim eget efficitur vel, auctor non felis. Fusce quis viverra mi. Aenean quis massa pretium, ullamcorper nisi eget, hendrerit odio.
+As the first thing that the re-imagined lab does, we organize weekly data jams - an informal event series intended to bring people together to discuss aspects relating to human data interaction and to attempt to better understand what this notion is.
+
+Keeping with the jam narrative, we aim for this event to be fun and engaging, and to allow us to meet fellow people with interests related to human data interaction.
+
+First and foremost, we aim to have fun while doing hands-on activities and discussing perspectives related to human data interaction, and perhaps beyond:)
+
