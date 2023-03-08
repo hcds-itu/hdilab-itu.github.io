@@ -8,7 +8,7 @@ run-by: Aleksandre Ganz, Inviso/Devoteam Data Driven
 weight: 1
 ---
 
-This data jam will introduce Tableau Desktop through hands-on tutorials and activities organized by Aleksandre Ganz from Inviso/Devoteam Data Driven.
+This data jam will introduce Tableau Desktop through hands-on tutorials and activities organized by Aleksandre Ganz from Inviso/Devoteam Data Driven
 
 Tableau Desktop is a popular commercial visualization tool sold by Tableau Software, which allows people to use easily and quickly create standard charts and maps, for example, through drag and drop interaction. The company was founded by Christian Chabot, Pat Hanrahan and Chris Stolte, who were researchers at the Department of Computer Science at Stanford University. They specialized in visualization techniques for exploring and analyzing relational databases and data cubes, and started the company as a commercial outlet for research at Stanford from 1999 to 2002. Thus, Tableau is often mentioned as a commercial success story of data visualization research.
 
