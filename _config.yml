@@ -5,10 +5,10 @@ title: 'hdilab'
 
 
 logo:
-  mobile: "images/logo/logo-mobile.svg"
+  mobile: "images/logo/logo-hdilab-mobile.svg"
   mobile_height: "32px"
   mobile_width: "32px"
-  desktop: "images/logo/hdiLAB-logo-v4.svg"
+  desktop: "images/logo/logo-hdilab.svg"
   desktop_height: "64px"
   desktop_width: "240px"
 

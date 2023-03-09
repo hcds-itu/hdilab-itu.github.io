@@ -14,7 +14,7 @@ Tableau Desktop is a popular commercial visualization tool sold by Tableau Softw
 
 For our activity, we will...
 
-## Schedule 
+### Schedule 
 
 We loosely follow this plan but are open to drop-ins as time permits.  
 
@@ -26,7 +26,7 @@ A detailed schedule will be available closer to the event.
 | 17.15 | Creating the weather visualization in Charticulator 
 | 17.45 | Reflections, wrap-up, and informal chat -->
 
-## Expectations
+### Expectations
 
 Keeping with the jam narrative, we aim for this event to be fun and engaging, and to allow us to meet fellow people with interests related to human data interaction.
 
