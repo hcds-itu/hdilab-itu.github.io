@@ -1,6 +1,6 @@
 ---
 title: "Experimenting with constructing visualizations in Data Illustrator and Charticulator"
-image: "/images/logo/logo-data-jams.png"
+image: "/images/logo/logo-data-jams-og.png"
 date: 2023-03-01T16:25:46+01:00
 event-date-start: 2023-03-15T16:00:00+01:00
 event-date-end: 2023-03-15T18:00:00+01:00
