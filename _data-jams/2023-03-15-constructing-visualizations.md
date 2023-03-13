@@ -14,7 +14,7 @@ A recent topic in visualization research is to better understand how tools can b
 
 For our activity, we will focus on re-creating an existing visualization, which was designed to present annual weather patterns of Boston, US. By re-creating something existing, we get to focus mostly on the tool and less on the product. For our activity, however, we will use Copenhagen weather data to make it a bit more interesting.  
 
-## Schedule 
+### Schedule 
 
 We loosely follow this plan but are open to drop-ins as time permits.  
 
@@ -25,7 +25,7 @@ We loosely follow this plan but are open to drop-ins as time permits.
 | 17.15 | Creating the weather visualization in Charticulator 
 | 17.45 | Reflections, wrap-up, and informal chat
 
-## Expectations
+### Expectations
 
 Keeping with the jam narrative, we aim for this event to be fun and engaging, and to allow us to meet fellow people with interests related to human data interaction.
 
