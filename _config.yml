@@ -2,7 +2,7 @@ url: 'https://hdilab.itu.dk'
 # baseurl: '/'
 permalink: pretty
 title: 'hdilab'
-
+site.github.url: 'https://hdilab.itu.dk'
 
 logo:
   mobile: "images/logo/logo-hdilab-mobile.svg"
@@ -48,6 +48,7 @@ sass:
 plugins:
   - jekyll-environment-variables
   - jekyll/scholar
+  - jekyll-seo-tag
   
 exclude:
   - Gemfile
