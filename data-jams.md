@@ -1,7 +1,7 @@
 ---
 title: Data Jams
 layout: data-jams
-description: Data Jams
+description: We organize weekly Data Jams - informal events that bring people together to discuss aspects relating to human data interaction and to attempt to better understand what this notion is.
 intro_image: "images/logo/logo-data-jams.svg"
 # intro_image_absolute: true
 # intro_image_hide_on_mobile: true
