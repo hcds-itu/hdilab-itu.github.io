@@ -1,7 +1,7 @@
 ---
 title: Human Data Interaction Lab
 layout: home
-description: Jekyll Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+description: The Human Data Interaction Lab focuses on the human factors in the conception, use, and understanding of data. The lab functions as a venue for discussing matters related to human data interaction broadly and invites students and faculty to join forces to better understand these aspects.
 # intro_image: "images/illustrations/pointing.svg"
 # intro_image_absolute: true
 # intro_image_hide_on_mobile: true
