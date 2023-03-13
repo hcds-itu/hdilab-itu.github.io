@@ -1,6 +1,6 @@
 ---
 title: "Tableau tutorial by Inviso"
-image: "/images/logo/logo-data-jams.svg"
+image: "/images/logo/logo-data-jams.png"
 date: 2023-03-07T17:15:46+01:00
 event-date-start: 2023-03-22T16:00:00+01:00
 event-date-end: 2023-03-22T18:00:00+01:00
