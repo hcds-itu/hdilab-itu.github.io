@@ -7,6 +7,18 @@ event-date-end: 2023-03-15T18:00:00+01:00
 event-place: "ITU, 4D Corridor (with overflow to 4A54 or 4A58)"
 run-by: Søren Knudsen
 weight: 1
+materials: [
+    {
+        name: "Weather data for Copenhagen for 2022",
+        url: assets/data-jams-materials/Copenhagen-2022-weather.csv
+    },{
+        name: "Data Illustrator",
+        url: https://data-illustrator.cs.umd.edu/
+    },{
+        name: "Charticulator",
+        url: https://charticulator.com/
+    }
+]
 ---
 
 How might digital tools support visualization construction?
