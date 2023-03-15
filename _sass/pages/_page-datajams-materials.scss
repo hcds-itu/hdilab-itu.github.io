@@ -1,5 +1,17 @@
-.page-datajams {
-    .intro {
+.page-datajams-materials {
+  p {
+    margin-bottom: 0px;
+    a {
+      color: #a7b4dc;
+    }
+  }
+
+  .datajam-content-material {
+    margin-bottom: 20px;
+
+  }
+
+  .intro {
     padding-bottom: 0px;
     h1 {
       width: 80%;
@@ -66,19 +78,5 @@
         width: 90px;
       }
     }
-  }
-}
-
-.page-datajams-materials {
-  p {
-    margin-bottom: 0px;
-    a {
-      color: #a7b4dc;
-    }
-  }
-
-  .datajam-content-material {
-    margin-bottom: 20px;
-
   }
 }
