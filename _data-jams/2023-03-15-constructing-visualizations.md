@@ -4,7 +4,7 @@ image: "/images/logo/logo-data-jams-og.png"
 date: 2023-03-01T16:25:46+01:00
 event-date-start: 2023-03-15T16:00:00+01:00
 event-date-end: 2023-03-15T18:00:00+01:00
-event-place: "ITU, 4D Corridor (with overflow to 4A54 or 4A58)"
+event-place: "ITU, 4D Corridor (or the larger rooms 4A54 or 3A52 as contingency)"
 run-by: Søren Knudsen
 weight: 1
 materials: [
