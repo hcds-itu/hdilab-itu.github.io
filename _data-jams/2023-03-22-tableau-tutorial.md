@@ -5,7 +5,7 @@ date: 2023-03-07T17:15:46+01:00
 event-date-start: 2023-03-22T16:00:00+01:00
 event-date-end: 2023-03-22T18:00:00+01:00
 event-place: "ITU, 4D Corridor (or the larger rooms 4A54 or 3A52 as contingency)"
-run-by: Aleksandre Ganz, Devoteam Data Driven
+run-by: Cedric Wacker, Devoteam Data Driven
 weight: 1
 ---
 
@@ -13,19 +13,21 @@ This data jam will introduce Tableau Desktop through hands-on tutorials and acti
 
 Tableau Desktop is a popular commercial visualization tool sold by Tableau Software, which allows people to use easily and quickly create standard charts and maps, for example, through drag and drop interaction. The company was founded by Christian Chabot, Pat Hanrahan and Chris Stolte, who were researchers at the Department of Computer Science at Stanford University. They specialized in visualization techniques for exploring and analyzing relational databases and data cubes, and started the company as a commercial outlet for research at Stanford from 1999 to 2002. Thus, Tableau is often mentioned as a commercial success story of data visualization research.
 
-<!-- For our activity, we will... -->
+For our activity, Cedric will cover material from their Tableau 1 training. While this usually takes four hours and comprises a mix of demos and hands-on activities, he will speed things up a little, and introduce the most important areas. Cedric invites general questions afterwards.
 
-<!-- ### Schedule  -->
+### Schedule 
 
-<!-- We loosely follow this plan but are open to drop-ins as time permits.   -->
+We loosely follow this plan. While we are usually open to drop-ins as time permits, the tutorial is planned in a way that makes it most useful to attend from the beginning.  
 
-<!-- A detailed schedule will be available closer to the event. -->
-<!-- | 16.00 | Introduction to Data Jams, Data Illustrator and Charticulator
-| 16.20 | Introduction to the activity 
-| 16.30 | Creating the weather visualization in Data Illustrator 
-| 17.00 | Check in and informal chat 
-| 17.15 | Creating the weather visualization in Charticulator 
-| 17.45 | Reflections, wrap-up, and informal chat -->
+| 16.00 | Arrival and introduction to the tutorial 
+| 16.10 | Introduction to Tableau 
+| 16.20 | Connect to data 
+| 16.30 | Basic visualisations 
+| 17.00 | Filtering, dates and maps 
+| 17.30 | Dashboard
+| 17.45 | Recap 
+
+It's very likely that there won't be time to actually develop a dashboard but we will definitely demo some good examples. 
 
 ### Expectations
 
