@@ -8,10 +8,22 @@ run-by: Thai Wang
 weight: 1
 materials: [
     {
+        name: "Weather data for Copenhagen for 2022",
+        url: assets/data-jams-materials/Copenhagen-2022-weather.csv
+    },{
+        name: "Data Illustrator",
+        url: https://data-illustrator.cs.umd.edu/
+    },{
+        name: "Charticulator",
+        url: https://charticulator.com/
+    }
+]
+<!-- materials: [
+    {
         name: "Stable Diffusion notebook",
         url: https://colab.research.google.com/drive/1DTEPMftBKmlnNr8nsvSXCH22t38HYSZN?usp=sharing
     }
-]
+] -->
 ---
 
 ### How can we use stable diffusion to help generate visualization images?
