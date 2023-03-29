@@ -6,6 +6,12 @@ event-date-end: 2023-03-29T18:00:00+01:00
 event-place: "ITU, 4D Corridor (with overflow to 4A54 or 4A58)"
 run-by: Thai Wang
 weight: 1
+materials: [
+    {
+        name: "Stable Diffusion notebook",
+        url: https://tinyurl.com/data-jam-sd-notebook
+    }
+]
 ---
 
 ### How can we use stable diffusion to help generate visualization images?
