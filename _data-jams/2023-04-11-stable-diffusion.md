@@ -1,5 +1,6 @@
 ---
 title: "Experimenting with stable diffusion for generative visualization"
+image: "/images/logo/logo-data-jams-og.png"
 date: 2023-04-03T15:55:46+02:00
 event-date-start: 2023-04-11T16:00:00+02:00
 event-date-end: 2023-04-11T18:00:00+02:00

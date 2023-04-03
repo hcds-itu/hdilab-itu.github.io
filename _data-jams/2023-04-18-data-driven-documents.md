@@ -1,17 +1,12 @@
 ---
-title: "Tutorial on D3 --- Data Driven Documents"
+title: "Tutorial on d3.js: Data Driven Documents"
+image: "/images/logo/logo-data-jams-og.png"
 date: 2023-04-03T15:55:46+02:00
 event-date-start: 2023-04-18T16:00:00+02:00
 event-date-end: 2023-04-18T18:00:00+02:00
 event-place: "ITU, 4D Corridor"
 run-by: Søren Knudsen
 weight: 1
-# materials: [
-#     {
-#         name: "Stable Diffusion notebook",
-#         url: https://tinyurl.com/data-jam-sd-notebook
-#     }
-# ]
 ---
 
 This data jam will introduce d3.js (short for Data Driven Documents) through hands-on tutorials and activities organized
@@ -22,7 +17,7 @@ In this tutorial, Søren will give a first-hand introduction to the library and 
 
 At the end of the tutorial, I expect that you will be able to:
 * Explain the core idea of d3.js.
-* Create an interactive version of a simple well-known visualization type (likely, a bar chart).
+* Create an interactive version of a simple well-known visualization type in d3.js (likely, a bar chart).
 * Explore d3.js further on your own.
 
 We hope to offer a follow-up data jam later in the semester (probably on May 2 or 9). 

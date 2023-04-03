@@ -19,9 +19,84 @@ intro_image: "images/logo/logo-data-jams.svg"
   </div>
 </div>
 
-<div class="container pt-6 pb-6">
-  <div class="row">
-    {% for data-jam in site.data-jams %}
+<div class="container pt-0 pb-6">
+  <div class="row pt-6 pb-6">
+    <div class="col-12 col-md-12 mb-12">
+      <div class="datajam datajam-summary datajam-summary-large">
+        <div class="datajam-content">
+          <h2 class="datajam-title">
+            <p>Next Data Jam</p>
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+<div class="row">
+  {% assign featured_data-jams = site.data-jams | where_exp: "post", 'post.event-date-start >= site.time'  | sort: "date" | reverse %}
+  {% for data-jam in featured_data-jams  limit:1 %}
+  <div class="col-12 col-md-12 mb-12">
+    <div class="datajam datajam-summary datajam-summary-large">
+      <div class="datajam-content">
+        <h2 class="datajam-title">
+          <a href="{{ data-jam.url | relative_url }}">{{ data-jam.title }}</a>
+        </h2>
+        <p>
+          <strong>When:</strong> {{ data-jam.event-date-start | date: '%B %d, %Y, starting at %H:%M' }}</a>
+        </p>
+        <p>{{ data-jam.content | markdownify | strip_html | truncate: 500 }}</p>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<div class="row pt-6 pb-0">
+  <div class="col-12 col-md-12 mb-12">
+    <div class="datajam datajam-summary">
+      <div class="datajam-content">
+        <h2 class="datajam-title">
+          <p>Other future data jams</p>
+        </h2>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row pt-6 pb-6">
+  {% assign featured_data-jams = site.data-jams | where_exp: "post", 'post.event-date-start >= site.time'  | sort: "date" | reverse | shift %}
+  {% for data-jam in featured_data-jams %}
+  <div class="col-12 col-md-6 mb-2">
+    <div class="datajam datajam-summary">
+      <div class="datajam-content">
+        <h2 class="datajam-title">
+          <a href="{{ data-jam.url | relative_url }}">{{ data-jam.title }}</a>
+        </h2>
+        <p>
+          <strong>When:</strong> {{ data-jam.event-date-start | date: '%B %d, %Y, starting at %H:%M' }}</a>
+        </p>
+        <p>{{ data-jam.content | markdownify | strip_html | truncate: 100 }}</p>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<div class="row pt-0 pb-0">
+  <div class="col-12 col-md-12 mb-12">
+    <div class="datajam datajam-summary">
+      <div class="datajam-content">
+        <h2 class="datajam-title">
+          <p>Past data jams</p>
+        </h2>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row pt-6 pb-6">
+    {% assign data-jams = site.data-jams | where_exp: "post", 'post.event-date-start < site.time'  | sort: "date" | reverse  %}
+    {% for data-jam in data-jams %}
     <div class="col-12 col-md-6 mb-3">
       <div class="datajam datajam-summary">
         <div class="datajam-content">
