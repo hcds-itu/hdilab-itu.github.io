@@ -1,9 +1,9 @@
 ---
 title: "Experimenting with stable diffusion for generative visualization"
-date: 2023-03-07T19:55:46+01:00
-event-date-start: 2023-03-29T16:00:00+01:00
-event-date-end: 2023-03-29T18:00:00+01:00
-event-place: "ITU, 4D Corridor (with overflow to 4A54 or 4A58)"
+date: 2023-04-03T15:55:46+02:00
+event-date-start: 2023-04-11T16:00:00+02:00
+event-date-end: 2023-04-11T18:00:00+02:00
+event-place: "ITU, 4D Corridor"
 run-by: Thai Wang
 weight: 1
 materials: [

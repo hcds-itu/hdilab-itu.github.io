@@ -1,0 +1,49 @@
+---
+title: "Tutorial on D3 --- Data Driven Documents"
+date: 2023-04-03T15:55:46+02:00
+event-date-start: 2023-04-18T16:00:00+02:00
+event-date-end: 2023-04-18T18:00:00+02:00
+event-place: "ITU, 4D Corridor"
+run-by: Søren Knudsen
+weight: 1
+# materials: [
+#     {
+#         name: "Stable Diffusion notebook",
+#         url: https://tinyurl.com/data-jam-sd-notebook
+#     }
+# ]
+---
+
+This data jam will introduce d3.js (short for Data Driven Documents) through hands-on tutorials and activities organized
+
+d3.js has not been available for more than ten years. Yet, it is still one of the programming libraries that are most often used to create novel interactive data visualizations both in industry and research. Since its publication, the library has undergone a wealth of changes and improvements. However, the core idea still stands: To support developers in binding data to visual elements. 
+
+In this tutorial, Søren will give a first-hand introduction to the library and how to use it. He will assume some familiarity with common web technologies, such as HTML, CSS, and JavaScript. 
+
+At the end of the tutorial, I expect that you will be able to:
+* Explain the core idea of d3.js.
+* Create an interactive version of a simple well-known visualization type (likely, a bar chart).
+* Explore d3.js further on your own.
+
+We hope to offer a follow-up data jam later in the semester (probably on May 2 or 9). 
+
+## Schedule 
+
+TBD
+
+<!-- We loosely follow this plan but are open to drop-ins as time permits.   -->
+
+<!-- | 16.00 | Light introduction to Stable Diffusion and setup
+| 16.20 | Introduction to the activity 
+| 16.30 | Experiment with text-to-image to create visualization prototypes 
+| 17.00 | Check in and informal chat 
+| 17.15 | Draw sketches to be used and experiment with the image-to-image approach 
+| 17.45 | Reflections, wrap-up, and informal chat -->
+
+## Expectations
+
+Keeping with the jam narrative, we aim for this event to be fun and engaging, and to allow us to meet fellow people with interests related to human data interaction.
+
+* Have fun 
+* Bring your own laptop 
+* Discuss perspectives related to human data interaction and beyond 
