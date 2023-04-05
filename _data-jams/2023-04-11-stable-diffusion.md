@@ -31,12 +31,14 @@ As we experiment with these approaches, record and reflect on prompts and ideas 
 
 We loosely follow this plan but are open to drop-ins as time permits.  
 
-| 16.00 | Light introduction to Stable Diffusion and setup
+| 16.00 | Arrival and snacks
+| 16.05 | Light introduction to Stable Diffusion and setup
 | 16.20 | Introduction to the activity 
 | 16.30 | Experiment with text-to-image to create visualization prototypes 
 | 17.00 | Check in and informal chat 
 | 17.15 | Draw sketches to be used and experiment with the image-to-image approach 
 | 17.45 | Reflections, wrap-up, and informal chat
+| 18.00 | Informal chats and snacking
 
 ## Expectations
 
