@@ -20,7 +20,7 @@ intro_image: "images/logo/logo-data-jams.svg"
 </div>
 
 <div class="container pt-0 pb-6">
-  <div class="row pt-6 pb-6">
+  <!-- <div class="row pt-6 pb-6">
     <div class="col-12 col-md-12 mb-12">
       <div class="datajam datajam-summary datajam-summary-large">
         <div class="datajam-content">
@@ -30,10 +30,10 @@ intro_image: "images/logo/logo-data-jams.svg"
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   
 <div class="row">
-  {% assign featured_data-jams = site.data-jams | where_exp: "post", 'post.event-date-start >= site.time'  | sort: "date" | reverse %}
+  {% assign featured_data-jams = site.data-jams | where_exp: "post", 'post.event-date-start >= site.time'  | sort: "date"  %}
   {% for data-jam in featured_data-jams  limit:1 %}
   <div class="col-12 col-md-12 mb-12">
     <div class="datajam datajam-summary datajam-summary-large">
@@ -51,7 +51,7 @@ intro_image: "images/logo/logo-data-jams.svg"
   {% endfor %}
 </div>
 
-<div class="row pt-6 pb-0">
+<!-- <div class="row pt-6 pb-0">
   <div class="col-12 col-md-12 mb-12">
     <div class="datajam datajam-summary">
       <div class="datajam-content">
@@ -61,10 +61,10 @@ intro_image: "images/logo/logo-data-jams.svg"
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 <div class="row pt-6 pb-6">
-  {% assign featured_data-jams = site.data-jams | where_exp: "post", 'post.event-date-start >= site.time'  | sort: "date" | reverse | shift %}
+  {% assign featured_data-jams = site.data-jams | where_exp: "post", 'post.event-date-start >= site.time'  | sort: "date" | shift %}
   {% for data-jam in featured_data-jams %}
   <div class="col-12 col-md-6 mb-2">
     <div class="datajam datajam-summary">
