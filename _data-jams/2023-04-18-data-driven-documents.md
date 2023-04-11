@@ -28,7 +28,12 @@ We hope to offer a follow-up data jam later in the semester (probably on May 2 o
 We loosely follow this plan but are open to drop-ins as time permits.  
 
 | 16.00 | Brief introduction to d3 and simple prototyping setup (this will assume basic knowledge of common web technologies)
-| 16.30 | How to draw a barchart in d3
+| 16.30 | How to draw a barchart in d3 (hands-on):
+|       | Joining data to visual elements
+|       | Setting visual attributes from data
+|       | Loading data
+|       | Using d3.scale to map data values to stuff on the screen
+|       | Adding axes using d3.scale
 | 17.00 | Check in
 | 17.15 | Animating the bars
 | 17.30 | Adding interactivity
