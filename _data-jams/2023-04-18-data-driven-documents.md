@@ -7,6 +7,7 @@ event-date-end: 2023-04-18T18:00:00+02:00
 event-place: "ITU, 4D Corridor"
 run-by: Søren Knudsen
 weight: 1
+signup-url: "https://forms.office.com/e/HYGA3nAiDZ"
 ---
 
 This data jam will introduce d3.js (short for Data Driven Documents) through hands-on tutorials and activities organized

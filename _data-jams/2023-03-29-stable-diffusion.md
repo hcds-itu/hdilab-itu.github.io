@@ -13,6 +13,7 @@ materials: [
         url: https://tinyurl.com/data-jam-sd-notebook
     }
 ]
+signup-url: "https://forms.office.com/e/k1cM0UvB14"
 ---
 
 How can we use stable diffusion to help generate visualization images?
