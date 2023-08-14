@@ -66,6 +66,7 @@ exclude:
   - LICENSE.md
   - LICENSE
   - README.md
+  - *.disabled
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
