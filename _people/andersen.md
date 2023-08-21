@@ -2,7 +2,7 @@
 layout: page
 title: Ida Gade Andersen
 description: Ida is currently pursing an MSc in Social Data Science at the University of Copenhagen after having completed her BSc in Digital Design and Interactive Technologies at ITU. Her main role in the lab is in the organization of the weekly data jams in collaboration with Søren Knudsen.
-img: assets/img/profile-photos/ida.png
+img: assets/img/profile-photos/ida-square.png
 group: Student
 started: 2023-08-01
 name: Ida Gade Andersen
