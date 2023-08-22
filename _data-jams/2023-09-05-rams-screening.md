@@ -8,6 +8,7 @@ event-place: "ITU, 4D Corridor"
 run-by: Søren Knudsen
 weight: 1
 signup-url: "https://forms.office.com/e/aWNrkyfB0P"
+hero-image: /assets/img/rams.jpg
 ---
 
 📣 Welcome to the Human Data Interaction Lab's Semester Opening Event! 📅
@@ -16,8 +17,9 @@ Join us for an engaging and enlightening afternoon as we kickstart the semester 
 
 Rams is a documentary portrait of Dieter Rams, one of the most influential designers alive, and a rumination on consumerism, sustainability, and the future of design.
 
-For over fifty years, Dieter Rams has left an indelible mark on the field of product design and the world at large with his iconic work at Braun and Vitsoe. Rams is a rumination of consumerism, materialism, and sustainability, and includes in-depth conversations with Dieter who dives into his philosophy, his process, and his inspirations.
+![Dieter Rams](/assets/img/rams.jpg)
 
+For over fifty years, Dieter Rams has left an indelible mark on the field of product design and the world at large with his iconic work at Braun and Vitsoe. Rams is a rumination of consumerism, materialism, and sustainability, and includes in-depth conversations with Dieter who dives into his philosophy, his process, and his inspirations.
 
 
 ## Schedule 

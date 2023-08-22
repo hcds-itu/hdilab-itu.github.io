@@ -44,7 +44,11 @@ intro_image: "images/logo/logo-data-jams.svg"
         <p>
           <strong>When:</strong> {{ data-jam.event-date-start | date: '%B %d, %Y, starting at %H:%M' }}</a>
         </p>
-        <p>{{ data-jam.content | markdownify | strip_html | truncate: 500 }}</p>
+        <p>{{ data-jam.content | markdownify | strip_html | truncate: 500 }}
+        </p>
+        <p>
+          <img style="width: 100%" src="{{ data-jam.hero-image}}"/>
+        </p>
         <p>
           <a href="{{data-jam.signup-url}}" class="button btn-success">Signup</a>
           </p>
