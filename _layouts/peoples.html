@@ -41,10 +41,35 @@ bodyClass: "page-peoples"
         </div>
         {% endfor %}
     </div>
-    <div class="row pt-6 pb-6">
-        {% assign peoples = site.people | where: "featured", empty | sort: "weight" %}
+    <div class="row pt-3 pb-1">
+        {% assign peoples = site.people | where: "featured", empty | where: "status", "Current" | sort: "weight" %}
         {% for people in peoples %}
         <div class="col-12 col-md-4 mb-3">
+            <div class="people people-summary">
+                {% if people.img %}
+                <div class="people-image">
+                    <img width="60" height="60" alt="{{ people.title }}" class="img-fluid mb-2" src="{{ people.img | relative_url }}" />
+                </div>
+                {% endif %}
+                <div class="people-meta">
+                    <h2 class="people-name"><a href="{{ people.url | relative_url }}">{{ people.title }}</a></h2>
+                    <p class="people-description">{{ people.position }}</p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="intro pt-1">
+        <div class="row pt-1 pb-1">
+            <div class="col-12 col-md-4 ">
+                <h2 class="mb-0 ">Alumni</h2>
+            </div>
+        </div>
+    </div>
+    <div class="row pt-1 pb-1">
+        {% assign peoples = site.people | where: "featured", empty | where: "status", "Alumni" | sort: "weight" %}
+        {% for people in peoples %}
+        <div class="col-12 col-md-4 pt-1 mb-3">
             <div class="people people-summary">
                 {% if people.img %}
                 <div class="people-image">

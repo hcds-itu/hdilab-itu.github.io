@@ -6,7 +6,7 @@ img: assets/img/profile-photos/thai.png
 group: Student
 started: 2023-02-01
 name: Thai Wang
-status: Former
+status: Alumni
 position: Lab Assistant
 email: twan@itu.dk
 weight: 2
