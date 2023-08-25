@@ -54,7 +54,7 @@ intro_image: "images/logo/logo-data-jams.svg"
           <p>
           <img style="width: 100%" src="{{ data-jam.hero-image}}"/>
         </p>
-        </div>
+      </div>
     </div>
   </div>
   {% endfor %}
@@ -85,8 +85,13 @@ intro_image: "images/logo/logo-data-jams.svg"
           <strong>When:</strong> {{ data-jam.event-date-start | date: '%B %d, %Y, starting at %H:%M' }}</a>
         </p>
         <p>{{ data-jam.content | markdownify | strip_html | truncate: 100 }}</p>
-      </div>
+        <p>
+          <img style="width: 100%; max-height: 160px; object-fit: cover;" src="{{ data-jam.hero-image}}"/>
+        </p>
+        </div>
+      <div class="datajam-content col-md-6">
     </div>
+  </div>
   </div>
   {% endfor %}
 </div>
