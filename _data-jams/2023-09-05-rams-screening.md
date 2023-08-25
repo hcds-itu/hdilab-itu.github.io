@@ -17,7 +17,7 @@ Join us for an engaging and enlightening afternoon as we kickstart the semester 
 
 Rams is a documentary portrait of Dieter Rams, one of the most influential designers alive, and a rumination on consumerism, sustainability, and the future of design.
 
-![Dieter Rams](/assets/img/rams.jpg)
+![Dieter Rams](/assets/img/rams.jpg){:.img-fluid style="width:100%"}
 
 For over fifty years, Dieter Rams has left an indelible mark on the field of product design and the world at large with his iconic work at Braun and Vitsoe. Rams is a rumination of consumerism, materialism, and sustainability, and includes in-depth conversations with Dieter who dives into his philosophy, his process, and his inspirations.
 
