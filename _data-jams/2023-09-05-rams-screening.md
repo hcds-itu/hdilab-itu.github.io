@@ -28,7 +28,9 @@ We loosely follow this plan but are open to drop-ins as time permits.
 
 | 16.00 | Introduction to the HDI Lab by Søren Knudsen
 | 16.15 | Screening of 'Rams' (with refreshments)
-| 17.30 | Discussion of the documentary
+| 17.00 | Informal discussion and bio-break
+| 17.15 | Screening of 'Rams' (second half)
+| 17.45 | Informal discussion
 | 18.00 | See you next time!
 
 ## Expectations
