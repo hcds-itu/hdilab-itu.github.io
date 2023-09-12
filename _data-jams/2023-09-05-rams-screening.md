@@ -1,7 +1,7 @@
 ---
 title: "Screening of the documentary 'Rams'"
 image: "/images/logo/logo-data-jams-og.png"
-date: 2023-08-21T12:25:00+02:00
+date: 2023-09-05T12:25:00+02:00
 event-date-start: 2023-09-05T16:00:00+02:00
 event-date-end: 2023-09-05T18:00:00+02:00
 event-place: "ITU, 4D Corridor"
