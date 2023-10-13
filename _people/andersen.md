@@ -7,7 +7,7 @@ group: Student
 started: 2023-08-01
 name: Ida Gade Andersen
 status: Current
-position: Lab Assistant
+position: Lab Teaching Assistant
 email: idan@itu.dk
 featured: true
 weight: 2

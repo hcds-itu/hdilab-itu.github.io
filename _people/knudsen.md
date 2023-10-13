@@ -7,7 +7,7 @@ group: Faculty
 started: 2021-03-01
 name: Søren Knudsen
 status: Current
-position: Director, Assistant Professor
+position: Head of Lab, Assistant Professor
 email: soekn@itu.dk
 featured: true
 weight: 1
