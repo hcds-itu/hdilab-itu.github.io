@@ -1,10 +1,10 @@
 ---
 layout: default
 bodyClass: "page-datajams"
-intro_image: "images/logo/logo-data-jams.svg"
+# intro_image: "images/logo/logo-data-jams.svg"
 ---
 
-{% assign event-array  = site["data-jams"] %}
+{% assign event-array  = site["research-events"] %}
 
 <div class="intro">
   <div class="container">
@@ -48,10 +48,12 @@ intro_image: "images/logo/logo-data-jams.svg"
         </p>
         <p>{{ data-jam.content | markdownify | strip_html | truncate: 300 }}
         </p>
+        {% if page.signup-url %}
         <p>
           <a href="{{data-jam.signup-url}}" class="button btn-success">Signup</a>
           </p>
-      </div>
+          {% endif %}
+        </div>
       <div class="datajam-content col-md-6">
           <p>
           <img style="width: 100%" src="{{ data-jam.hero-image}}"/>

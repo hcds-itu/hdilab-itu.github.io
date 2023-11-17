@@ -27,6 +27,9 @@ collections:
   data-jams:
     output: true
     sort_by: weight
+  research-events:
+    output: true
+    sort_by: weight
   people:
     output: true
 
@@ -41,6 +44,11 @@ defaults:
       type: "data-jams"
     values:
       layout: "data-jam"
+  - scope:
+      path: ""
+      type: "research-events"
+    values:
+      layout: "research-event"
   - scope:
       path: ""
       type: "people"
