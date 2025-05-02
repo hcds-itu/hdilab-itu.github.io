@@ -6,7 +6,7 @@ img: assets/img/profile-photos/david-square.jpg
 group: RA
 started: 2022-09-01
 name: David Wegmann
-status: Current
+status: Alumni
 position: Research Assistant
 email: davw@itu.dk
 ---

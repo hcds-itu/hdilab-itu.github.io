@@ -28,6 +28,11 @@ bodyClass: "page-peoples"
                 <div class="people-image">
                     <img width="90" height="90" alt="{{ people.title }}" class="img-fluid mb-2" src="{{ people.img | relative_url }}" />
                 </div>
+                {% else %}
+                <div class="people-image" color="gray">
+                    <img width="90" height="90" style="opacity: 0.6" alt="{{ people.title }}" class="img-fluid mb-2" src="/assets/img/profile-photos/pending-icon.svg" />
+                    
+                </div>
                 {% endif %}
                 <div class="people-meta">
                     <h2 class="people-name"><a href="{{ people.url | relative_url }}">{{ people.title }}</a></h2>
@@ -49,6 +54,11 @@ bodyClass: "page-peoples"
                 {% if people.img %}
                 <div class="people-image">
                     <img width="60" height="60" alt="{{ people.title }}" class="img-fluid mb-2" src="{{ people.img | relative_url }}" />
+                </div>
+                {% else %}
+                <div class="people-image" color="gray">
+                    <img width="90" height="90" style="opacity: 0.6" alt="{{ people.title }}" class="img-fluid mb-2" src="/assets/img/profile-photos/pending-icon.svg" />
+                    
                 </div>
                 {% endif %}
                 <div class="people-meta">
@@ -74,6 +84,11 @@ bodyClass: "page-peoples"
                 {% if people.img %}
                 <div class="people-image">
                     <img width="60" height="60" alt="{{ people.title }}" class="img-fluid mb-2" src="{{ people.img | relative_url }}" />
+                </div>
+                {% else %}
+                <div class="people-image" color="gray">
+                    <img width="90" height="90" style="opacity: 0.6" alt="{{ people.title }}" class="img-fluid mb-2" src="/assets/img/profile-photos/pending-icon.svg" />
+                    
                 </div>
                 {% endif %}
                 <div class="people-meta">

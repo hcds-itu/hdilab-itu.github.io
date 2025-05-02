@@ -5,11 +5,11 @@ description: Ida is currently pursing an MSc in Social Data Science at the Unive
 img: assets/img/profile-photos/ida-square.jpg
 group: Student
 started: 2023-08-01
+left: 2023-11-01
 name: Ida Gade Andersen
-status: Current
-position: Lab Teaching Assistant
+status: Alumni
+position: Lab Assistant
 email: idan@itu.dk
-featured: true
 weight: 2
 themes: []
 ---
