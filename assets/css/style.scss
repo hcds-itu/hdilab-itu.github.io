@@ -126,6 +126,10 @@ $sub-footer-background-color: darken($footer-background-color, 10%);
 @import "pages/page-datajams";
 @import "pages/page-datajams-materials";
 
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+  font-weight: 900;
+}
+
 body {
   font-size: 16px;
   line-height: 1.2;
