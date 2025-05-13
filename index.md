@@ -31,23 +31,23 @@ Research events, such as talks by visiting researchers often have broader appeal
 
 
 <div class="row research-events">
-<h2>Upcoming Research Events</h2>
+<h2>Upcoming Events</h2>
 <dl>
-  {% assign featured_research-events = site.research-events | where_exp: "post", 'post.event-date-start >= site.time'  | sort: "post.event-date-start"  %}
-  {% for research-event in featured_research-events  limit:3 %}
+  {% assign featured_research-events = site.research-events | concat: site["data-jams"] | where_exp: "post", 'post.event-date-start >= site.time'  | sort: "post.event-date-start"  %}
+  {% for event in featured_research-events  limit:3 %}
     <!-- <div class="col-12 col-md-12 mb-12"> -->
     <!-- <div class="researchevent researchevent-summary researchevent-summary-large"> -->
       <!-- <div class="researchevent-content col-md-6"> -->
         <!-- <h2 class="researchevent-title"> -->
-          <dt><a href="{{ research-event.url | relative_url }}">{{ research-event.title }}</a></dt>
+          <dt><a href="{{ event.url | relative_url }}">{{event.event-type}}: {{ event.title }}</a></dt>
         <!-- </h2> -->
         <!-- <p> -->
           <dd>
-            {{ research-event.event-date-start | date: '%B %d, %Y, starting at %H:%M' }}.
+            {{ event.event-date-start | date: '%B %d, %Y, starting at %H:%M' }}.
           </dd>
         <!-- </p> -->
-        <!-- <p>{{ research-event.content | markdownify | strip_html | truncate: 300 }} -->
-        <!-- </p> -->
+        <!-- <p>{{ event | strip_html  }}
+        </p> -->
         <!-- <p>
           <a href="{{research-event.signup-url}}" class="button btn-success">Signup</a>
           </p>
@@ -61,7 +61,7 @@ Research events, such as talks by visiting researchers often have broader appeal
   </div> -->
   {% endfor %}
 </dl>
-<a href="/research-events/">Overview of research events</a>.
+<!-- <a href="/research-events/">Overview of research events.</a> -->
 </div>
 
 

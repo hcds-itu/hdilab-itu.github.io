@@ -8,9 +8,10 @@ intro_image: "images/logo/logo-data-jams.svg"
 # intro_image_hide_on_mobile: true
 ---
 
-# Launching our Data Jams series
+# Data Jams back in 2025!
 
-As the first thing that the re-imagined lab does, we organize weekly data jams - an informal event series intended to bring people together to discuss aspects relating to human data interaction and to attempt to better understand what this notion is.
+Our Data Jams will be back in the 2025 autumn semester.
+Data Jams are weekly informal events intended to bring people together to discuss aspects relating to human data interaction and to attempt to better understand what this notion is.
 
 Keeping with the jam narrative, we aim for this event to be fun and engaging, and to allow us to meet fellow people with interests related to human data interaction.
 

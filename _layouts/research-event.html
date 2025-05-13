@@ -16,6 +16,7 @@ bodyClass: "page-home"
       <div class="col-6 col-md-6 col-lg-4 order-1 order-md-1">
         <p>
           <strong>When:</strong> {{page.event-date-start | date: '%B %d, %Y at %H:%M' }} - {{page.event-date-end | date: '%H:%M' }} <br>
+          <strong>What:</strong> {{page.event-type }} <br>
           <strong>Place:</strong> {{page.event-place}} <br>
           <strong>Hosted by:</strong> {{page.hosted-by}} <br>
         </p>
