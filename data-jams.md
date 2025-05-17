@@ -8,7 +8,7 @@ intro_image: "images/logo/logo-data-jams.svg"
 # intro_image_hide_on_mobile: true
 ---
 
-# Data Jams back in 2025!
+# Data Jams are back in 2025!
 
 Our Data Jams will be back in the 2025 autumn semester.
 Data Jams are weekly informal events intended to bring people together to discuss aspects relating to human data interaction and to attempt to better understand what this notion is.

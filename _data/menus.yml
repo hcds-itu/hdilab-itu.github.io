@@ -3,7 +3,7 @@ main:
   #   url: "/services/"
   #   weight: 2
   - name: "EXPO 2025"
-    url: "/expo-2025/"
+    url: "/expo/"
     weight: 1
   - name: "Data Jams"
     url: "/data-jams/"
