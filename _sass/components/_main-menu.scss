@@ -12,13 +12,22 @@
       font-size: 1rem;
       > a {
         padding: 10px 12px 10px 12px;
-        display: inline-block;
+        display: block;
         font-weight: normal;
         text-decoration: none;
         color: $header-color;
         &:hover {
           text-decoration: underline;
         }
+      }
+      > a::after {
+        display: block;
+        content: attr(title);
+        font-weight: bold;
+        height: 0px;
+        color: transparent;
+        overflow: hidden;
+        visibility: hidden;
       }
       &.active {
         > a {
@@ -32,4 +41,5 @@
       }
     }
   }
+  
 }

@@ -113,6 +113,7 @@ $sub-footer-background-color: darken($footer-background-color, 10%);
 @import "components/title";
 @import "components/content";
 @import "components/intro";
+@import "components/expo";
 @import "components/intro-image";
 @import "components/strip";
 @import "components/feature";
@@ -121,6 +122,7 @@ $sub-footer-background-color: darken($footer-background-color, 10%);
 
 // Pages
 @import "pages/page-home";
+@import "pages/page-expo";
 @import "pages/page-peoples";
 @import "pages/page-service";
 @import "pages/page-datajams";

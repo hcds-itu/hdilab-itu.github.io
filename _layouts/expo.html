@@ -1,0 +1,42 @@
+---
+layout: default
+bodyClass: "page-expo"
+---
+
+<div class="expo">
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+  <div class="row justify-content-start">
+    <div class="col-12 col-md-10">
+      <div class="service service-single">
+        <h1 class="title">{{page.title}}</h1>
+      </div>
+    </div>
+  </div>
+  <div class="row justify-content-start">
+    <!-- <div class="col-12 col-md-8"> -->
+      <div class="col-12 col-md-10 col-lg-10 order-1 order-md-1">
+        <p>
+          <strong>When:</strong> {{page.event-date-start | date: '%B %d, %Y at %H:%M' }} - {{page.event-date-end | date: '%H:%M' }} <br>
+          <strong>What:</strong> {{page.event-type }} <br>
+          <strong>Place:</strong> {{page.event-place}} <br>
+          <strong>Hosted by:</strong> {{page.hosted-by}} <br>
+        </p>
+      </div>
+      {% if page.signup-url %}
+      <div class="col-10 col-md-10 col-lg-10 order-2 order-md-2 my-auto">
+        <p>
+          <a href="{{page.signup-url}}" class="button btn-success">Signup</a>
+        </p>
+      </div>
+      {% endif %}
+      <!-- </div> -->
+  </div>
+  <div class="row justify-content-start">
+    <div class="col-12 col-md-10">
+      <div class="service service-single">
+        <div class="content">{{content}}</div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
