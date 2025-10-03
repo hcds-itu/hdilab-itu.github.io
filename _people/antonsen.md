@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Søren Knudsen
-description: Caroline Rosenberg graduated with an MSc in Digital Design and Interactive Technologies from ITU in 2025.
+title: Caroline Rosenberg Antonsen
+description: Caroline Rosenberg Antonsen graduated with an MSc in Digital Design and Interactive Technologies from ITU in 2025.
 img: assets/img/profile-photos/pending-square.jpg
 group: Master student
 started: 2025-01-01
@@ -14,7 +14,7 @@ weight: 1
 themes: [Data Visualization, Data Comics, Design Process]
 ---
 
-Caroline Rosenberg graduated with an MSc in Digital Design and Interactive Technologies from ITU in 2025.
+Caroline Rosenberg Antonsen graduated with an MSc in Digital Design and Interactive Technologies from ITU in 2025.
 
 Caroline's thesis project focused on data comics about arctic amplification. She worked with Sarah Bagge Valsborg [link] in a collaboration with the National Center for Climate Research at DMI. She was supervised by Søren Knudsen [link] in her thesis work.
 
