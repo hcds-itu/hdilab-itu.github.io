@@ -17,3 +17,4 @@ Keeping with the jam narrative, we aim for this event to be fun and engaging, an
 
 First and foremost, we aim to have fun while doing hands-on activities and discussing perspectives related to human data interaction, and perhaps beyond:)
 
+Test
