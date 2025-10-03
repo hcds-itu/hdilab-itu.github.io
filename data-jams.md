@@ -16,5 +16,3 @@ Data Jams are weekly informal events intended to bring people together to discus
 Keeping with the jam narrative, we aim for this event to be fun and engaging, and to allow us to meet fellow people with interests related to human data interaction.
 
 First and foremost, we aim to have fun while doing hands-on activities and discussing perspectives related to human data interaction, and perhaps beyond:)
-
-Test
