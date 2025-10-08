@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Caroline Rosenberg Antonsen
+title: Caroline R. Antonsen
 description: Caroline Rosenberg Antonsen graduated with an MSc in Digital Design and Interactive Technologies from ITU in 2025.
-img: assets/img/profile-photos/pending-square.jpg
+# img: assets/img/profile-photos/pending-square.jpg
 group: Student
 started: 2025-01-01
 name: Caroline Rosenberg Antonsen
