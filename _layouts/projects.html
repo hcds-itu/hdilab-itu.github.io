@@ -1,0 +1,104 @@
+---
+layout: default
+bodyClass: "page-datajams"
+# intro_image: "images/logo/logo-data-jams.svg"
+---
+
+{% assign event-array  = site["projects"] %}
+
+<div class="intro">
+  <div class="container">
+    <div class="row justify-content-start">
+      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+        {{ content }}
+      </div>
+      {% if page.intro_image %}
+      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative rows my-auto">
+        <img alt={{ page.title }} class="my-auto intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relative_url }}" />
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<div class="container pt-0 pb-6">
+
+<div class="row pt-0 pb-0">
+  <div class="col-12 col-md-12 mb-12">
+    <div class="datajam datajam-summary">
+      <div class="datajam-content">
+        <h2 class="datajam-title">
+          <p>Current projects</p>
+        </h2>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row pt-6 pb-6">
+  {% assign featured_data-jams = event-array | where_exp: "post", 'post.project-date-end >= site.time'  | sort: "post.project-date-end" %}
+  {% for data-jam in featured_data-jams %}
+  <div class="col-12 col-md-6 mb-2">
+    <div class="datajam datajam-summary">
+      <div class="datajam-content">
+        <h2 class="datajam-title">
+          <a href="{{ data-jam.url | relative_url }}">{{ data-jam.title }}</a>
+        </h2>
+        <p>
+            {% assign start-year = data-jam.project-date-start | date: '%Y' %}
+            {% assign end-year = data-jam.project-date-end | date: '%Y' %}
+            {% if start-year == end-year %}
+              <strong>Year:</strong> {{ data-jam.project-date-end | date: '%Y' }}</a>
+            {% else %}
+              <strong>Years:</strong> {{ data-jam.project-date-start | date: '%Y' }} - {{ data-jam.project-date-end | date: '%Y' }}</a>
+            {% endif %}
+        </p>
+        <p>{{ data-jam.content | markdownify | strip_html | truncate: 100 }}</p>
+        <p>
+          <img style="width: 100%; max-height: 160px; object-fit: cover;" src="{{ data-jam.hero-image}}"/>
+        </p>
+        </div>
+      <div class="datajam-content col-md-6">
+    </div>
+  </div>
+  </div>
+  {% endfor %}
+</div>
+
+<div class="row pt-0 pb-0">
+  <div class="col-12 col-md-12 mb-12">
+    <div class="datajam datajam-summary">
+      <div class="datajam-content">
+        <h2 class="datajam-title">
+          <p>Past projects</p>
+        </h2>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row pt-6 pb-6">
+    {% assign data-jams = event-array | where_exp: "post", 'post.project-date-end < site.time'  | sort: "post.project-date-end" | reverse  %}
+    {% for data-jam in data-jams %}
+    <div class="col-12 col-md-6 mb-3">
+      <div class="datajam datajam-summary">
+        <div class="datajam-content">
+          <h2 class="datajam-title">
+            <a href="{{ data-jam.url | relative_url }}">{{ data-jam.title }}</a>
+          </h2>
+          <p>
+            {% assign start-year = data-jam.project-date-start | date: '%Y' %}
+            {% assign end-year = data-jam.project-date-end | date: '%Y' %}
+            {% if start-year == end-year %}
+              <strong>Year:</strong> {{ data-jam.project-date-end | date: '%Y' }}</a>
+            {% else %}
+              <strong>Years:</strong> {{ data-jam.project-date-start | date: '%Y' }} - {{ data-jam.project-date-end | date: '%Y' }}</a>
+            {% endif %}
+          </p>
+          <p>{{ data-jam.content | markdownify | strip_html | truncate: 100 }}</p>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

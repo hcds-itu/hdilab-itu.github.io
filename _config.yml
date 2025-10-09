@@ -30,6 +30,9 @@ collections:
   research-events:
     output: true
     sort_by: weight
+  projects:
+    output: true
+    sort_by: project-date-end
   people:
     output: true
 
@@ -49,6 +52,11 @@ defaults:
       type: "research-events"
     values:
       layout: "research-event"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
   - scope:
       path: ""
       type: "people"

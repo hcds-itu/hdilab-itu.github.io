@@ -1,0 +1,39 @@
+---
+layout: default
+bodyClass: "page-home"
+---
+
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+  <div class="row justify-content-start">
+    <div class="col-12 col-md-8">
+      <div class="service service-single">
+        <h1 class="title">{{page.title}}</h1>
+      </div>
+    </div>
+  </div>
+  <div class="row justify-content-start">
+    <!-- <div class="col-12 col-md-8"> -->
+      <div class="col-6 col-md-6 col-lg-4 order-1 order-md-1">
+        <p>
+          <strong>By:</strong> {{page.people}} <br>
+          <strong>Supervised by:</strong> {{page.supervised-by}} <br>
+          {% assign start-year = data-jam.project-date-start | date: '%Y' %}
+          {% assign end-year = data-jam.project-date-end | date: '%Y' %}
+          {% if start-year == end-year %}
+            <strong>When:</strong> {{page.project-date-start | date: '%B' }} - {{page.project-date-end | date: '%B, %Y' }} <br>
+          {% else %}
+            <strong>When:</strong> {{page.project-date-start | date: '%B %Y' }} - {{page.project-date-end | date: '%B, %Y' }} <br>
+          {% endif %}
+        <!-- <strong>What:</strong> {{page.project-type }} <br> -->
+        </p>
+      </div>
+      <!-- </div> -->
+  </div>
+  <div class="row justify-content-start">
+    <div class="col-12 col-md-8">
+      <div class="service service-single">
+        <div class="content">{{content}}</div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -2,15 +2,18 @@ main:
   # - name: "Services"
   #   url: "/services/"
   #   weight: 2
-  - name: "EXPO 2025"
-    url: "/expo/"
-    weight: 1
+  # - name: "EXPO 2025"
+  #   url: "/expo/"
+  #   weight: 1
   - name: "Data Jams"
     url: "/data-jams/"
     weight: 2
   - name: "Research Events"
     url: "/research-events/"
     weight: 3
+  - name: "Projects"
+    url: "/projects/"
+    weight: 4
   - name: "People"
     url: "/people/"
     weight: 5
