@@ -5,7 +5,7 @@ title: Data Comics for Communicating Climate Change
 date: 2025-10-09T13:52:00+01:00
 project-date-start: 2025-01-01T00:00:00+01:00
 project-date-end: 2025-06-24T00:00:00+01:00
-permalink: "/projects/data-comic-for-communicating-climate-chance-456930c4-fa24-43a0-a0c6-90c189674da4/"
+permalink: "/projects/data-comic-for-communicating-climate-chance-729aac7c/"
 weight: 1
 supervised-by: Søren Knudsen
 people: Caroline R. Antonsen, Sarah B. Valsborg
