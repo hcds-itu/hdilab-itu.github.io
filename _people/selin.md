@@ -7,7 +7,7 @@ group: Student
 started: 2025-05-01
 name: Tanya Rudberg Selin
 status: Current
-position: Lab Teaching Assistant
+position: Lab Teaching Assistant, Master Student
 email: tase@itu.dk
 featured: true
 weight: 2
