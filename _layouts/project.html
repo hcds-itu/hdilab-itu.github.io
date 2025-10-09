@@ -17,8 +17,8 @@ bodyClass: "page-home"
         <p>
           <strong>By:</strong> {{page.people}} <br>
           <strong>Supervised by:</strong> {{page.supervised-by}} <br>
-          {% assign start-year = data-jam.project-date-start | date: '%Y' %}
-          {% assign end-year = data-jam.project-date-end | date: '%Y' %}
+          {% assign start-year = page.project-date-start | date: '%Y' %}
+          {% assign end-year = page.project-date-end | date: '%Y' %}
           {% if start-year == end-year %}
             <strong>When:</strong> {{page.project-date-start | date: '%B' }} - {{page.project-date-end | date: '%B, %Y' }} <br>
           {% else %}
