@@ -18,9 +18,9 @@ people: Caroline R. Antonsen, Sarah B. Valsborg
 ## What are data comics?
 
 Data comics operate at the intersection of visualization and narrative communication. As researchers increasingly recognize the power of storytelling to convey complex information, narrative approaches to data visualization have gained significant traction.
-Data comics are distinguished by their ability to create "a step-by-step data-driven story, allowing the reader to understand the displayed data by following a predefined reading order while still providing opportunities for self-paced reading and personal exploration" [1]. This gradual revelation of information prevents cognitive overload by breaking complex concepts into digestible pieces. By leveraging the narrative and visual conventions of comics, such as panels, layouts, and expressive storytelling, data comics can enhance both comprehension and memorability of complex insights [2].
+Data comics are distinguished by their ability to create "a step-by-step data-driven story, allowing the reader to understand the displayed data by following a predefined reading order while still providing opportunities for self-paced reading and personal exploration" [1]. This gradual revelation of information prevents cognitive overload by breaking complex concepts into digestible pieces. By leveraging the narrative and visual conventions of comics, such as panels, layouts, and expressive storytelling, data comics can enhance both comprehension and memorability of complex insights.
 
-Comics are already a widely recognized and accessible communication medium, effectively engaging diverse audiences across various formats. From children's books and newspaper strips to graphic novels for adults. This broad reach has established a shared visual literacy, where readers intuitively comprehend conventions such as panel sequencing, speech bubbles, and the representation of time and motion [2]].
+Comics are already a widely recognized and accessible communication medium, effectively engaging diverse audiences across various formats. From children's books and newspaper strips to graphic novels for adults. This broad reach has established a shared visual literacy, where readers intuitively comprehend conventions such as panel sequencing, speech bubbles, and the representation of time and motion.
 
 Data comics can draw on knowledge and data from multiple sources, including research articles and reports. We therefore view data comics as a medium for communicating research insights, complementary to, rather than in opposition to, traditional scientific publications. What constitutes data comics' limitation is simultaneously their strength. As a simplified version of the research they communicate, they function as a bridge between the academic world and the general public, with their level of detail strategically adapted to serve their communicative purpose.
 
@@ -34,7 +34,7 @@ In this project, we created two data comics. One about arctic amplification and 
 This data comic amplify the climate change in Greenland by telling the story of Arctic
 amplification; a phenomenon that makes temperature rises and climate changes in Greenland significantly more severe than elsewhere in the world. The comic targets Greenlandic high school students because they tend to view climate change as a distant problem affecting other parts of the world through devastating natural disasters, while seeing Greenland's rising temperatures as simply making their climate more pleasant. To explain climate change in Greenland in this data comic, we explore several natural scientific phenomena and how they work together to drive Arctic amplification. The story is set in Greenland, using predominantly photographs taken there. The photographs are derived from pexels.com. 
 
-The narrative begins by contextualising Arctic amplification in comparison to global temperature trends (Rantanen et al., 2022). This includes a graph comparing Arctic temperature rises to global averages, followed by an illustration showing the degree of amplification in the Arctic versus elsewhere. The story then explains the natural phenomena causing Arctic amplification. Since the albedo effect is a primary driver of Arctic amplification, we begin by describing how this effect weakens and its consequences. The story continues with two other natural phenomena that further contribute to reducing the albedo. The story concludes by explaining how these natural phenomena reinforce each other, creating the dramatically higher climate changes and their consequences observed in Greenland.
+The narrative begins by contextualising Arctic amplification in comparison to global temperature trends [2]. This includes a graph comparing Arctic temperature rises to global averages, followed by an illustration showing the degree of amplification in the Arctic versus elsewhere. The story then explains the natural phenomena causing Arctic amplification. Since the albedo effect is a primary driver of Arctic amplification, we begin by describing how this effect weakens and its consequences. The story continues with two other natural phenomena that further contribute to reducing the albedo. The story concludes by explaining how these natural phenomena reinforce each other, creating the dramatically higher climate changes and their consequences observed in Greenland.
 
 *Example image from data comic*
 
@@ -46,12 +46,12 @@ The narrative uses a newspaper format, with the story told through what appears 
 
 *Example image from data comic*
 
-### Products (the data comics)
+### The data comics
  * [Arctic Amplification](pdf)
  * [Heatwaves in Denmark](pdf)
 
 ## References
 
-[1] Bach et al., 2018.
+[1] Benjamin Bach, Zezhong Wang, Matteo Farinella, Dave Murray-Rust, & Nathalie Henry Riche. 2018. Design Patterns for Data Comics. In *Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI '18)*. Association for Computing Machinery, New York, NY, USA, Paper 38, 1–12. https://doi.org/10.1145/3173574.3173612
 
-[2] Zhao et al., 2015.
+[2] Mika Rantanen, Alexey Yu. Karpechko, Antti Lipponen, Kalle Nordling, Otto Hyvärinen, Kimmo Ruosteenoja, Timo Vihma & Ari Laaksonen. The Arctic has warmed nearly four times faster than the globe since 1979. *Communications Earth & Environment*. 3, 168 (2022). https://doi.org/10.1038/s43247-022-00498-3
