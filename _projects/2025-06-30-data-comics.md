@@ -11,9 +11,15 @@ supervised-by: Søren Knudsen
 people: Caroline R. Antonsen, Sarah B. Valsborg
 ---
 
-*Overview of project (pending)*
+Data comics are increasingly suggested to benefit science communication. 
+Yet, we have limited knowledge about what constitutes good design practices and lack concrete guidance for concrete steps to take in the process of making these. 
+In this project, we explored data comic design processes.
 
-*Academic goal of project (pending)*
+We based our work on our experiences creating two data comics in collaborations with climate scientists. 
+Using an autoethnographic approach, we kept meticulous notes and design reflections from these experiences.
+
+Our work provides concrete design results in the form of two data comics, as well as insights about the design of such artifacts, based on thematic analyses of empirical data (reflective journals, logbooks,
+meeting notes, audio recordings, and the design artefacts themselves).
 
 ## What are data comics?
 
