@@ -55,7 +55,7 @@ bodyClass: "page-datajams"
         </p>
         <p>{{ data-jam.content | markdownify | strip_html | truncate: 100 }}</p>
         <p>
-          <img style="width: 100%; max-height: 160px; object-fit: cover;" src="{{ data-jam.hero-image}}"/>
+          <img style="width: 100%; max-height: 160px; object-fit: cover;" src="{{ data-jam.hero-image }}"/>
         </p>
         </div>
       <div class="datajam-content col-md-6">
@@ -86,6 +86,9 @@ bodyClass: "page-datajams"
           <h2 class="datajam-title">
             <a href="{{ data-jam.url | relative_url }}">{{ data-jam.title }}</a>
           </h2>
+          <p>
+            <img style="width: 100%; max-height: 160px; object-fit: cover;" src="{{ data-jam.hero-image}}"/>
+          </p>
           <p>
             {% assign start-year = data-jam.project-date-start | date: '%Y' %}
             {% assign end-year = data-jam.project-date-end | date: '%Y' %}
