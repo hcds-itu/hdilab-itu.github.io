@@ -12,9 +12,9 @@ people: Caroline R. Antonsen, Sarah B. Valsborg
 ---
 
 Data comics are increasingly suggested to benefit science communication. 
-Yet, we have limited knowledge about what constitutes good design practices and lack concrete guidance for concrete steps to take in the process of making these. 
-In this project, we explored data comic design processes.
+Yet, we have limited knowledge about what constitutes good design practices and lack concrete guidance for what steps to take in the process of making these. 
 
+In this project, we explored data comic design processes.
 We based our work on our experiences creating two data comics in collaborations with climate scientists. 
 Using an autoethnographic approach, we kept meticulous notes and design reflections from these experiences.
 
