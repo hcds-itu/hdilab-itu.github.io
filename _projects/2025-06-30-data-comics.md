@@ -6,7 +6,7 @@ date: 2025-10-09T13:52:00+01:00
 project-date-start: 2025-01-01T00:00:00+01:00
 project-date-end: 2025-06-24T00:00:00+01:00
 permalink: "/projects/data-comics-for-communicating-climate-change-729aac7c/"
-hero-image: "/assets/img/projects/data-comics-for-communicating-climate-change-729aac7c.png"
+hero-image: "/assets/projects/data-comics-for-communicating-climate-change-729aac7c.png"
 weight: 1
 supervised-by: Søren Knudsen
 people: Caroline R. Antonsen, Sarah B. Valsborg
@@ -54,8 +54,8 @@ The narrative uses a newspaper format, with the story told through what appears 
 ![Image showing five panels from the data comic](/assets/img/projects/heatwaves-example-1.png "Excerpt from 'Heatwaves in Denmark'")
 
 ### The data comics
- * [Arctic Amplification](/assets/img/projects/arctic.pdf)
- * [Heatwaves in Denmark](/assets/img/projects/heatwaves.pdf)
+ * [Arctic Amplification](/assets/projects/arctic.pdf)
+ * [Heatwaves in Denmark](/assets/projects/heatwaves.pdf)
 
 ## References
 
