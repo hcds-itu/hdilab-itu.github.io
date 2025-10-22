@@ -43,7 +43,7 @@ amplification; a phenomenon that makes temperature rises and climate changes in 
 
 The narrative begins by contextualising Arctic amplification in comparison to global temperature trends [2]. This includes a graph comparing Arctic temperature rises to global averages, followed by an illustration showing the degree of amplification in the Arctic versus elsewhere. The story then explains the natural phenomena causing Arctic amplification. Since the albedo effect is a primary driver of Arctic amplification, we begin by describing how this effect weakens and its consequences. The story continues with two other natural phenomena that further contribute to reducing the albedo. The story concludes by explaining how these natural phenomena reinforce each other, creating the dramatically higher climate changes and their consequences observed in Greenland.
 
-![Image showing four panels from the data comic](/assets/img/projects/arctic-example-1.png "Excerpt from 'Arctic Amplification'")
+![Image showing four panels from the data comic](/assets/projects/arctic-example-1.png "Excerpt from 'Arctic Amplification'")
 
 ### Heatwaves in Denmark
 
@@ -51,7 +51,7 @@ This data comic addresses the serious consequences of failing to act on future h
 
 The narrative uses a newspaper format, with the story told through what appears to be newspaper pages and articles, creating the experience of reading through a paper. The story begins by contextualizing heat waves as the leading climate-related cause of death in Denmark, specifically highlighting the excess mortality of 250 people during the 2018 heat wave. It then examines the relationship between age and mortality risk during extreme temperatures through an annotated graph, emphasizing how even small temperature increases have major consequences for mortality, particularly among the elderly population. The narrative continues by explaining that the intensity of future heat waves depends on greenhouse gas emissions, presenting three different emission scenarios and noting that we are currently heading toward a 3-degree temperature increase. This leads to an illustration showing how average temperature increases dramatically raise the probability of extreme heat events, explaining why we will experience more frequent heat waves in the future. The story then presents two concrete solutions: improved warning systems and green climate adaptation measures, each offering distinct ways to reduce excess mortality. Finally, it concludes that implementing these measures together can save lives in the future.
 
-![Image showing five panels from the data comic](/assets/img/projects/heatwaves-example-1.png "Excerpt from 'Heatwaves in Denmark'")
+![Image showing five panels from the data comic](/assets/projects/heatwaves-example-1.png "Excerpt from 'Heatwaves in Denmark'")
 
 ### The data comics
  * [Arctic Amplification](/assets/projects/arctic.pdf)
